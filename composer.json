@@ -1,5 +1,5 @@
 {
-  "name": "lokielse/omnipay-wechatpay",
+  "name": "telanflow/omnipay-wechatpay",
   "type": "library",
   "description": "Wechat gateway for Omnipay payment processing library",
   "keywords": [
@@ -14,7 +14,7 @@
     "purchase",
     "微信支付"
   ],
-  "homepage": "https://github.com/lokielse/omnipay-wechatpay",
+  "homepage": "https://github.com/telanflow/omnipay-wechatpay",
   "license": "MIT",
   "authors": [
     {
@@ -29,10 +29,10 @@
   },
   "require": {
     "omnipay/common": "^3.0",
-    "php-http/guzzle6-adapter": "*"
+    "php-http/guzzle7-adapter": "^1.0"
   },
   "require-dev": {
-    "omnipay/tests": "^3.0",
+    "omnipay/tests": "^4.1",
     "squizlabs/php_codesniffer": "3.*"
   }
 }
